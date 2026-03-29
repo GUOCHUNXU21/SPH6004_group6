@@ -1,0 +1,23 @@
+{
+  "input_path": "/Users/tianmanyan/Desktop/SPH6004 Assignment/Assignment2_Group/MIMIC-IV-static(Group Assignment).csv",
+  "output_dir": "/Users/tianmanyan/Desktop/SPH6004 Assignment/Assignment2_Group/mimic_static_split_outputs",
+  "target_col": "time_to_discharge_hours",
+  "log_target_col": "log_time_to_discharge_hours",
+  "event_col": "icu_death_flag",
+  "keep_only_live_discharge": true,
+  "high_missing_threshold": 0.5,
+  "missing_indicator_lower": 0.2,
+  "missing_indicator_upper": 0.5,
+  "train_shape": [
+    49740,
+    109
+  ],
+  "val_shape": [
+    10820,
+    109
+  ],
+  "test_shape": [
+    10769,
+    109
+  ]
+}
